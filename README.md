@@ -1,8 +1,8 @@
-# DeepSeek Engineer v2 🐋
+# Qudy AI Engineer 🐋
 
 ## Overview
 
-DeepSeek Engineer v2 is a powerful AI-powered coding assistant that provides an interactive terminal interface for seamless code development. It integrates with DeepSeek's advanced reasoning models to offer intelligent file operations, code analysis, and development assistance through natural conversation and function calling.
+Qudy AI Engineer is a powerful AI-powered coding assistant that provides an interactive terminal interface for seamless code development. It integrates with DeepSeek's advanced reasoning models to offer intelligent file operations, code analysis, and development assistance through natural conversation and function calling.
 
 ## 🚀 Latest Update: Function Calling Architecture
 
@@ -85,8 +85,8 @@ For when you want to preload files into conversation context:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd deepseek-engineer
+   git clone https://github.com/QudyAI/engineer
+   cd qudy-engineer
    ```
 
 2. **Set up environment**:
@@ -100,13 +100,13 @@ For when you want to preload files into conversation context:
    #### Using uv (recommended - faster)
    ```bash
    uv venv
-   uv run deepseek-eng.py
+   uv run qudy-eng.py
    ```
 
    #### Using pip
    ```bash
    pip install -r requirements.txt
-   python3 deepseek-eng.py
+   python3 qudy-eng.py
    ```
 
 ### Usage Examples
@@ -246,8 +246,8 @@ This is an experimental project showcasing DeepSeek reasoning model capabilities
 
 ### **Development Setup**
 ```bash
-git clone <repository-url>
-cd deepseek-engineer
+git clone https://github.com/QudyAI/engineer
+cd qudy-engineer
 uv venv
 uv sync
 ```
@@ -255,11 +255,11 @@ uv sync
 ### **Run**
 ```bash
 # Run the application (preferred)
-uv run deepseek-eng.py
+uv run qudy-eng.py
 ```
 or
 ```bash
-python3 deepseek-eng.py
+python3 qudy-eng.py
 ```
 
 ## License
@@ -271,4 +271,3 @@ This project is experimental and developed for testing DeepSeek reasoning model 
 ---
 
 > **Note**: This is an experimental project developed to explore the capabilities of DeepSeek's reasoning model with function calling. The AI can automatically read files you mention in conversation, while the `/add` command is available for when you want to preload context. Use responsibly and enjoy the enhanced AI pair programming experience! 🚀
-

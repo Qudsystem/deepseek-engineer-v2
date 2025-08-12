@@ -166,7 +166,7 @@ tools = [
 # 3. system prompt
 # --------------------------------------------------------------------------------
 system_PROMPT = dedent("""\
-    You are an elite software engineer called DeepSeek Engineer with decades of experience across all programming domains.
+    You are an elite software engineer called Qudy AI Engineer with decades of experience across all programming domains.
     Your expertise spans system design, algorithms, testing, and best practices.
     You provide thoughtful, well-structured solutions while explaining your reasoning.
 
@@ -744,7 +744,7 @@ def stream_openai_response(user_message: str):
 
 def main():
     # Create a beautiful gradient-style welcome panel
-    welcome_text = """[bold bright_blue]🐋 DeepSeek Engineer[/bold bright_blue] [bright_cyan]with Function Calling[/bright_cyan]
+    welcome_text = """[bold bright_blue]🐋 Qudy AI Engineer[/bold bright_blue] [bright_cyan]with Function Calling[/bright_cyan]
 [dim blue]Powered by DeepSeek-R1 with Chain-of-Thought Reasoning[/dim blue]"""
     
     console.print(Panel.fit(
@@ -796,7 +796,7 @@ def main():
         if response_data.get("error"):
             console.print(f"[bold red]❌ Error: {response_data['error']}[/bold red]")
 
-    console.print("[bold blue]✨ Session finished. Thank you for using DeepSeek Engineer![/bold blue]")
+    console.print("[bold blue]✨ Session finished. Thank you for using Qudy AI Engineer![/bold blue]")
 
 if __name__ == "__main__":
     main()
